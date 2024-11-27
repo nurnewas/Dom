@@ -19,14 +19,18 @@
 
 
     <script>
+        const para = document.getElementsByClassName("para")[0];// 
+        para.innerText = 'Even death i am the hero of the world'
+        para.style.color ='red';
+
       const list = document.getElementsByTagName("li");
     //   console.log(list);
       const paragraph = document.getElementById("paragraph").innerText = 'Nur';
     //   console.log(paragraph);
     const listName = document.getElementsByClassName("list");
-    console.log(listName);
+    // console.log(listName);
     for (const list of listName) {
-        console.log(list.innerText);
+        // console.log(list.innerText);
     }
     </script>
   </body>
