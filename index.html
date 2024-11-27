@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dom</title>
-    <link rel="stylesheet" href="Style/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="Style/style.css" />
+  </head>
+  <body>
     <h1 class="dom">Lets play with <strong>Dom</strong></h1>
-    <h3>My list </h3>
+    <h3>My list</h3>
     <ul>
-        <li>nur </li>
-        <li>Newas </li>
-        <li>Jr</li>
+      <li>nur</li>
+      <li>Newas</li>
+      <li>Jr</li>
     </ul>
+    <p id="pragraph">Noor</p>
+    <p class="para">Newas is now</p>
     <script>
-        const list = document.getElementsByTagName('li'); 
-        console.log(list);
-    </script>    
-</body>
+      const list = document.getElementsByTagName("li");
+      console.log(list);
+      const pragraph = document.getElementById("pragraph").innerText = 'Nur';
+      console.log(pragraph);
+    </script>
+  </body>
 </html>
