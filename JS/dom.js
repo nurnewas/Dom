@@ -22,3 +22,9 @@ for (const section of sections) {
 }
 
 
+// document.createElement("div").innerText = " Hello I create a Div using js ";
+
+const newDiv = document.createElement("div"); // Create the <div>
+newDiv.innerText = "Hello, I created a Div using JS"; // Set the text content
+
+document.body.appendChild(newDiv); // Add the <div> to the <body>
