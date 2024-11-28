@@ -19,9 +19,11 @@
 
 
     <script>
-      document.getElementById("IdName");
-      document.getElementsByClassName('ClassName')
-      document.getElementsByTagName('TagName')
+      // document.getElementById("IdName");
+      // document.getElementsByClassName('ClassName')
+      // document.getElementsByTagName('TagName')
+      // document.querySelector('#IdName')
+      // document.querySelectorAll('.ClassName a span')
 
       // querySelector
       const SomeList = document.querySelectorAll("ul li");
@@ -44,6 +46,13 @@
     // console.log(listName);
     for (const list of listName) {
         // console.log(list.innerText);
+
+        // CSSS
+        list.style.color ='red';
+        list.style.backgroundColor = 'green';
+        list.style.border = '1px dotted black';
+        list.style.cursor = 'pointer';
+
     }
     </script>
   </body>
