@@ -19,6 +19,19 @@
 
 
     <script>
+      document.getElementById("IdName");
+      document.getElementsByClassName('ClassName')
+      document.getElementsByTagName('TagName')
+
+      // querySelector
+      const SomeList = document.querySelectorAll("ul li");
+      for(const listli of SomeList){
+        console.log(listli.innerHTML);
+      }
+
+      const header = document.getElementsByTagName('h1')
+      console.log(header);
+
         const para = document.getElementsByClassName("para")[0];// 
         para.innerText = 'Even death i am the hero of the world'
         para.style.color ='red';
