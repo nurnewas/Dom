@@ -25,7 +25,18 @@ purpleBtn.onclick = function purpleColor() {
 const pinkBtn = document.getElementById("pink");
 pinkBtn.addEventListener("click",pinkColor);
 
-
 function pinkColor() {
     document.body.style.backgroundColor = "pink";
 }
+
+// 4 another
+const greenBtn = document.getElementById("green");
+greenBtn.addEventListener('click',function makeGreen() {
+    document.body.style.backgroundColor = "green";
+});
+
+// me 
+const blackBtn = document.getElementById("black");
+blackBtn.addEventListener('click',() => {
+    document.body.style.backgroundColor = "black";
+});
