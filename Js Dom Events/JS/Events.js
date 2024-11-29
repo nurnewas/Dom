@@ -40,3 +40,9 @@ const blackBtn = document.getElementById("black");
 blackBtn.addEventListener('click',() => {
     document.body.style.backgroundColor = "black";
 });
+
+// last 
+const whiteBtn = document.getElementById("white");
+whiteBtn.addEventListener('click',() => {
+  document.body.style.backgroundColor = "white";
+})
