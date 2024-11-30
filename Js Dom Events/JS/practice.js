@@ -24,4 +24,5 @@ document.getElementById('btn-update').addEventListener('click',function() {
 
     const text = document.getElementById('input-text');
     text.innerText = inputText;
+    inputfield.value = '';
 })
