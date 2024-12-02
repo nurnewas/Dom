@@ -7,4 +7,8 @@ document.getElementById("text").addEventListener("focus", function(){
 })
 document.getElementById("text").addEventListener("blur", function(){
     console.log("dog");
-})
+}) 
+
+document.getElementById("text").addEventListener('keydown', function(){
+    console.log(event.target.value);
+}); //keyboard Typeahead
