@@ -8,3 +8,12 @@ for (const item of items){
         e.target.parentNode.removeChild(e.target);
     });
 };
+
+// add  button 
+document.getElementById('btn-add-item').addEventListener('click',function(){
+    const container = document.createElement('content-container');
+
+    const li = document.createElement('li');
+    li.textContent = 'New Item';
+    container.appendChild(li);
+});
